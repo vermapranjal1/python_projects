@@ -1,0 +1,12 @@
+import time
+from plyer import notification
+
+if __name__=="__main__":
+  while True:
+    notification.notify(
+        title= "**Please Drink Water!!",
+        message= "The National Academy of Medicine suggests an adequate intake of daily fluids of about 13 cups and 9 cups for healthy men and women, respectively, with 1 cup equaling 8 ounces. [1] Higher amounts may be needed for those who are physically active or exposed to very warm climates.",
+        app_icon="/Users/pranjalverma/Downloads/water.png",
+        timeout=12
+    )
+    time.sleep(60*60)
